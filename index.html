@@ -175,8 +175,9 @@
     flex:none;width:170px;height:170px;border-radius:50%;
     background:rgba(255,255,255,.6);border:2px solid rgba(189,154,63,.45);
     display:flex;align-items:center;justify-content:center;text-align:center;
-    font-size:12px;color:var(--texto-3);padding:16px;
+    font-size:12px;color:var(--texto-3);padding:0;overflow:hidden;
   }
+  .autora .foto img{width:100%;height:100%;object-fit:cover;object-position:50% 14%;display:block;}
 
   /* depoimentos */
   .depos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:28px;}
@@ -499,7 +500,7 @@
   <div class="narrow">
     <div class="eyebrow">Quem escreveu</div>
     <div class="autora">
-      <div class="foto ph">FOTO DA<br>PETRONÍLIA<br><span style="font-size:10px;">(pendente)</span></div>
+      <div class="foto"><img src="assets/autora.jpg" alt="Pietra Gratia, autora de O Altar no Mundo"></div>
       <div>
         <h3 class="serif">Pietra Gratia</h3>
         <p>Escritora e idealizadora do selo <b>Afinidade com Deus</b>, comunidade que reúne mais de <b>100 mil mulheres</b> em torno da fé católica todos os dias.</p>
