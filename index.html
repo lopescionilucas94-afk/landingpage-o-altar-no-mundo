@@ -170,7 +170,10 @@
   .col.no li::before{content:"✕";position:absolute;left:0;color:var(--rosa-claro);font-weight:800;}
 
   /* autora */
-  .autora{display:flex;gap:32px;align-items:flex-start;}
+  .autora{display:flex;flex-direction:column;align-items:center;text-align:center;max-width:660px;margin:0 auto;}
+  .autora .foto{width:190px;height:190px;}
+  .autora h3{margin-top:24px;margin-bottom:6px;}
+  .autora p{text-align:justify;font-size:15.5px;}
   .autora .foto{
     flex:none;width:170px;height:170px;border-radius:50%;
     background:rgba(255,255,255,.6);border:2px solid rgba(189,154,63,.45);
@@ -498,7 +501,7 @@
 <!-- ================= AUTORA ================= -->
 <section class="s cream">
   <div class="narrow">
-    <div class="eyebrow">Quem escreveu</div>
+    <div class="eyebrow" style="text-align:center;">Quem escreveu</div>
     <div class="autora">
       <div class="foto"><img src="assets/autora.jpg" alt="Pietra Gratia, autora de O Altar no Mundo"></div>
       <div>
